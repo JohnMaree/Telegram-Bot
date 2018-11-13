@@ -54,3 +54,17 @@ The JSON can easily be explored as its _message_ structure resembles:
 ```
 
 This means that accessing say, the chat id (with python) is as simple as `chat = jsonData['message']['chat']['id']`.
+
+
+## **TODO:**
+
+[x] Rope Nic into your crazy project
+[x] Make readme
+[x] Basic python Webhook
+[ ] Look into python-telegram API/libraries
+[ ] More advanced python bot
+[ ] Consider C++ implementation/
+[ ] Create website
+[ ] SSL (wildcard) the website
+[ ] Forward the website to server
+[ ] World domination
