@@ -9,7 +9,6 @@ Testing for developing a Telegram Bot
 * Python BASIC bot: https://djangostars.com/blog/how-to-create-and-deploy-a-telegram-bot/
 
 
-
 ## **Useful Tools:**
 
 * Ngrok: https://ngrok.com/download --> A temporary HTTPS tunnelling solution for the Telegram API to have access to local PC
@@ -17,13 +16,12 @@ Testing for developing a Telegram Bot
 * Linux and macOS are ideal as servers mainly use them
 
 
-
 ## **Good to know:**
 
 There are different methods to interfacing with telegram, mainly through [Webhooks](https://webhooks.pbworks.com/w/page/13385124/FrontPage), and standard HTTPS requests. To put it plainly, Webhooks carry a lot more customisation, access to data and more extensive options with regards to interfacing/accessing the API, however they carry with them the annoyance of requiring a HTTPS web-server for the secure handshakes which becomes annoying for small devs without access to an SSL certified HTTPS address. This is where the HTTP request method comes in handy as you require no servers etc. to access some information (its limited though and most likely will not be the way the majority of bots are implemented), it is however handy when just wanting test your connection to the bot...
 
 
-Easy commands to test your connection to the bot:
+Easy commands to test your connection to the bot :fire::
 
 ```
 https://api.telegram.org/bot<token>/getUpdates --> Basic status
@@ -58,9 +56,9 @@ This means that accessing say, the chat id (with python) is as simple as `chat =
 
 ## **TODO:**
 
-- [x] Rope Nic into your crazy project
-- [x] Make readme
-- [x] Basic python Webhook
+- [x] Rope Nic into your crazy project :+1:
+- [x] Make readme :punch:
+- [x] Basic python Webhook :ok_hand:
 - [ ] Look into python-telegram API/libraries
 - [ ] More advanced python bot
 - [ ] Consider C++ implementation/libraries
