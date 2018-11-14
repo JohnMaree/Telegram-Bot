@@ -12,13 +12,13 @@ Testing for developing a Telegram Bot
 ## **Useful Tools:**
 
 * Ngrok: https://ngrok.com/download --> A temporary HTTPS tunnelling solution for the Telegram API to have access to local PC
-* For windows - BASH (very helpful & easy, its a UNIX shell)
+* For windows - BASH (very helpful & easy, its a UNIX shell) -- Built into GIT!!! (Yay). This gives windows many UNIX commands that linux and macOS enjoy!
 * Linux and macOS are ideal as servers mainly use them
 
 
 ## **Good to know:**
 
-There are different methods to interfacing with telegram, mainly through [Webhooks](https://webhooks.pbworks.com/w/page/13385124/FrontPage), and standard HTTPS requests. To put it plainly, Webhooks carry a lot more customisation, access to data and more extensive options with regards to interfacing/accessing the API, however they carry with them the annoyance of requiring a HTTPS web-server for the secure handshakes which becomes annoying for small devs without access to an SSL certified HTTPS address. This is where the HTTP request method comes in handy as you require no servers etc. to access some information (its limited though and most likely will not be the way the majority of bots are implemented), it is however handy when just wanting test your connection to the bot...
+There are different methods to interfacing with telegram, mainly through [Webhooks](https://webhooks.pbworks.com/w/page/13385124/FrontPage), and standard HTTPS requests. To put it plainly, Webhooks carry a lot more customisation, access to data and more extensive options with regards to interfacing/accessing the API, however they carry with them the annoyance of requiring a HTTPS web-server for the secure handshakes which becomes annoying for small devs without access to an SSL certified HTTPS server address. This is where the HTTP request method comes in handy as you require no servers etc. to access some information (its limited though and most likely will not be the way the majority of bots are implemented), it is however handy when just wanting test your connection to the bot...
 
 
 Easy commands to test your connection to the bot :fire::
