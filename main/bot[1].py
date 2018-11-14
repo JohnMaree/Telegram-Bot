@@ -1,3 +1,7 @@
+#Basic python script to analyse the JSON file and act upon it
+#This does not send messages back to the bot
+
+
 from bottle import (
     run, post, response, request as bottle_request
 )
@@ -44,8 +48,6 @@ def main():
     print("ID: ", getChat_ID(messageData), "\nMessage: ", getMessage(messageData))
 
     return
-
-
 
 
 if __name__ == '__main__':
