@@ -66,3 +66,4 @@ This means that accessing say, the chat id (with python) is as simple as `chat =
 - [ ] SSL (wildcard) the website
 - [ ] Forward the website to server
 - [ ] World domination
+- [x] Buy server while dreaming
