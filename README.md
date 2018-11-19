@@ -59,7 +59,8 @@ This means that accessing say, the chat id (with python) is as simple as `chat =
 - [x] Rope Nic into your crazy project :+1:
 - [x] Make readme :punch:
 - [x] Basic python Webhook :ok_hand:
-- [ ] Look into python-telegram API/libraries
+- [ ] NodeJS implementation -- so much better
+- [ ] ~~Look into python-telegram API/libraries~~
 - [ ] More advanced python bot
 - [ ] Consider C++ implementation/libraries
 - [ ] Create website

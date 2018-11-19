@@ -36,8 +36,9 @@ class processMsg(message, Bottle):
     bot_url = 'https://api.telegram.org/bot763429199:AAGCFRePEp7Hcl5Ij4Wlx5_UW_pCwzO4rP4/'
 
     def __init__(self, *args, **kwargs):
-        super(processMsg, self).__init__()
-        self.route('/', callback=self.handle_msg, method="POST")
+        super(processMsg, self).__init__() #super is weird
+        self.route('/', callback=self.handle_msg, method="POST") #What it listens to? i donno
+        #calls handle message every time it sees a response on the bot
 
 
     def process(self, msgData):
@@ -45,9 +46,24 @@ class processMsg(message, Bottle):
         chat_id = self.get_chat_id(msgData)
         messageText = self.get_msg_text(msgData)
 
+        if messageText == "/start":
+            sendText = "Welcome to the Sonarr Bot! Type /commands to get started!"
+        elif messageText == "/commands":
+            sendText = """The following are a list of commands you can use:
+            List Shows
+            Add Shows
+            Upcoming Shows
+            """
+        elif messageText == "Upcoming Shows":
+            #sonarr_url = 'http://localhost:8989/api/calendar?apikey=YourApiKey'
+            #requests.post(sonarr_url)
+            sendText = "Getting Upcoming Shows..."
+            print("Upcoming")
+
+
         json_data = {
         "chat_id" : chat_id,
-        "text" : messageText,
+        "text" : sendText,
         }
 
         return json_data
@@ -55,6 +71,7 @@ class processMsg(message, Bottle):
     def handle_msg(self):
         msgData = bottle_request.json
 
+        #check if its a cmd...
         reply = self.process(msgData)
 
         self.send_msg(reply)
