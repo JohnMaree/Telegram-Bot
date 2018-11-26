@@ -1,0 +1,26 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "John's nodeJS version of a Telegram Bot",
+  "main": "test.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnMaree/Telegram-Bot.git"
+  },
+  "author": "John Maree",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnMaree/Telegram-Bot/issues"
+  },
+  "homepage": "https://github.com/JohnMaree/Telegram-Bot#readme"
+}
