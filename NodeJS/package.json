@@ -6,7 +6,9 @@
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "emoji-unicode": "^1.0.9",
+    "express": "^4.16.4",
+    "sonarr-api": "^0.2.0"
   },
   "devDependencies": {},
   "scripts": {
